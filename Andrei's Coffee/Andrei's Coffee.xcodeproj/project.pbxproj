@@ -21,6 +21,7 @@
 		A1BC58AE263B8D2200F6AF37 /* CoffeeRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC58AD263B8D2200F6AF37 /* CoffeeRowModel.swift */; };
 		A1BC58B0263B8D3C00F6AF37 /* TopBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC58AF263B8D3C00F6AF37 /* TopBanner.swift */; };
 		A1BC58B2263B8D6800F6AF37 /* CoffeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC58B1263B8D6800F6AF37 /* CoffeeList.swift */; };
+		A1BC58B5263B9A5400F6AF37 /* temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC58B4263B9A5400F6AF37 /* temp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		A1BC58AD263B8D2200F6AF37 /* CoffeeRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRowModel.swift; sourceTree = "<group>"; };
 		A1BC58AF263B8D3C00F6AF37 /* TopBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBanner.swift; sourceTree = "<group>"; };
 		A1BC58B1263B8D6800F6AF37 /* CoffeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeList.swift; sourceTree = "<group>"; };
+		A1BC58B4263B9A5400F6AF37 /* temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		A1BC58A6263B8C8D00F6AF37 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				A1BC58B3263B9A4500F6AF37 /* temp */,
 				A1BC58A7263B8CC000F6AF37 /* MainApp.swift */,
 				A1BC58A9263B8CDB00F6AF37 /* FavoritesCoffeeList.swift */,
 				A1BC58AB263B8CF500F6AF37 /* ListRow.swift */,
@@ -160,6 +163,14 @@
 				A1BC58B1263B8D6800F6AF37 /* CoffeeList.swift */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		A1BC58B3263B9A4500F6AF37 /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				A1BC58B4263B9A5400F6AF37 /* temp.swift */,
+			);
+			path = temp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 				A1BC5879263B8C5700F6AF37 /* ContentView.swift in Sources */,
 				A1BC58B2263B8D6800F6AF37 /* CoffeeList.swift in Sources */,
 				A1BC58AC263B8CF500F6AF37 /* ListRow.swift in Sources */,
+				A1BC58B5263B9A5400F6AF37 /* temp.swift in Sources */,
 				A1BC5877263B8C5700F6AF37 /* Andrei_s_CoffeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
